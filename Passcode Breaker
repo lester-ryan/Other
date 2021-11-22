@@ -1,3 +1,6 @@
+# this code will print all possible passcodes for phone
+# must be 4 digit code, each digit can be used more than once
+
 from string import digits
 from itertools import product
 
