@@ -1,0 +1,9 @@
+# Clara lotto
+# Cost of Entry €1.50
+# 28 numbers choose 3
+# Total Combinations = 3,276
+
+
+from itertools import combinations
+for comb in combinations(range(1,28), 3):
+    print (comb) 
